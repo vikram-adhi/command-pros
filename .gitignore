@@ -3,3 +3,4 @@ env/
 *.png
 embedding*
 dataset/test/*
+.DS_Store
