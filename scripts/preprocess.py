@@ -14,7 +14,7 @@ nltk.download('stopwords')
 custom_stop_words = ["command", "displays", "purpose", "description"]
 stop_words = set(stopwords.words('english') + custom_stop_words)
 
-def preprocess_text(description):
+def preprocess_text(command, description):
     description = description.lower()
 
     tokens = word_tokenize(description)
@@ -25,7 +25,7 @@ def preprocess_text(description):
     # Joining tokens back into a string
     preprocessed_description = ' '.join(tokens)
 
-    return preprocessed_description
+    return command+" "+preprocessed_description
 
 
 def main():
@@ -38,7 +38,7 @@ def main():
     
     df = pd.read_csv(input_path)
 
-    df['Preprocessed_Description'] = df['Description'].apply(preprocess_text)
+    df['Preprocessed_Description'] = df.apply(lambda row: preprocess_text(row['Command'], row['Description']), axis=1)
     # Save the updated DataFrame to the same CSV file
     
     selected_columns = ['Command', 'Link', 'Description', 'Preprocessed_Description']
