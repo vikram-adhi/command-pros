@@ -4,3 +4,4 @@ selenium
 pandas
 wordcloud
 matplotlib
+nltk
