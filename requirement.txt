@@ -7,3 +7,5 @@ matplotlib
 nltk
 tqdm
 scikit-learn
+fastapi
+uvicorn
