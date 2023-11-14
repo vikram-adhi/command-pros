@@ -1,0 +1,714 @@
+Command,Link
+show aaa auth-survivability,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-aaa-auth-surv.htm
+show aaa auth-survivability-cache,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-aaa-auth-cach.htm
+show aaa authentication all,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-aaa-auth-all.htm
+show aaa authentication captive-portal customization,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-aaa-ath-cp-cz.htm
+show aaa authentication dot1x,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-aaa-auth-dot1.htm
+show aaa authentication-server all,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-aaa-ath-srv-al.htm
+show aaa authentication-server internal,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-aaa-auth-intv.htm
+show aaa authentication-server ldap statistics,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-aaa-auth-ldap.htm
+show aaa authentication-server radius,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-aaa-auth-radi.htm
+show aaa authentication-server tacacs,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-aaa-auth-tacs.htm
+show aaa authentication-server tacacs statistics,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-aaaauth-tacacs-stat.htm
+show aaa authentication via global-config,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-aaa-auth-via-glbl-cnfg.htm
+show aaa authentication vpn,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-aaa-auth-vpn.htm
+show aaa authentication vpn,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-aaa-auth-vpn-default.htm
+show aaa authentication vpn default,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-aaa-authvpndf.htm
+show aaa authentication vpn default-cap,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-aaa-auth-vpn-default-cap.htm
+show aaa authentication vpn default-cap,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-auth-vpndfcap.htm
+show aaa authentication vpn default-rap,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-aaa-auth-vpn-default-rap.htm
+show aaa authentication vpn default-rap,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-aaa-authvpnrap.htm
+show aaa bandwidth-contracts,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-aaa-bdwd-cont.htm
+show aaa cluster essid,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-aaa-cl-essid.htm
+show aaa derivation-rules server-group,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-aaa-derv-rulegrp.htm
+show aaa derivation-rules user,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-aaa-derv-rule.htm
+show aaa fqdn-server-names,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-aaa-fqdn-name.htm
+show aaa radius-attributes,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-aaa-rad-attr.htm
+show aaa server-group,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-aaa-srvr-grp.htm
+show aaa state ap-group,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-aaa-st-ap-grp.htm
+show aaa state configuration,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-aaa-st-conf.htm
+show aaa state debug-statistics,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-aaa-st-dbg-st.htm
+show aaa state messages,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-aaa-st-msg.htm
+show about,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/show-about.htm
+show access-rule,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-access-rule.htm
+show access-rule-all,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-access-rule-all.htm
+show acl ace-table,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-aclace-tab.htm
+show acl ace-table 4,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-acl-ace4-tab.htm
+show acl domains,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-acl-domains.htm
+show acl hits,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-acl-hits.htm
+show airgroup,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-airgrp.htm
+show airgroup central-cache,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-airgrp-central-cache.htm
+show airgroup central-cache checksum_table,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-airgrp-central-cache-checksum-table.htm
+show airgroup central-cache entries,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-airgrp-central-cache-entries.htm
+show airgroup central-cache servers,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-airgrp-central-cache-servers.htm
+show airgroup debug-log,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-airgrp-debug-log.htm
+show airgroup debug statistics,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-air-dbg-stats.htm
+show airgroup discover-cache,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-airgrp-discvr.htm
+show airgroup discover-cache checksum_table,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-airgp-discvr-chcksm.htm
+show airgroup discover-cache entries,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-airgp-discvr-csh-entris.htm
+show airgroup discover-cache servers,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-airgrp-discvr-csh-svr.htm
+show airgroup global policy,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-airgrp-gbl-plcy.htm
+show airgroup service,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-airgrp-srv-vbs.htm
+show airgroup users,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-airgrp-users.htm
+show airgroup wired-servers,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-airgrp-wird-srv.htm
+show airgroupservice,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-airgrp-service.htm
+show airgroupservice-ids,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-airgrp-serv-ids.htm
+show alert global,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/show-alerts-gl.htm
+show allowed-aps,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/show-allowed.htm
+show amon msg-buffer-size,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-amn-msg-bfr.htm
+show amon source-interface,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-asi.htm
+show amp-audit,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-show-amp-audit.htm
+show ap active,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-active.htm
+show ap-alert,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/show-ap-alert.htm
+show ap allowed-channels,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-allw-chanl.htm
+show ap allowed-max-eirp,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-alw-mx-eir.htm
+show ap arm history,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-arm-histry.htm
+show ap arm neighbors,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ap-arm-neighb.htm
+show ap arm rf-summary,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-arm-rf-sum.htm
+show ap arm scan-times,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-arm-scan.htm
+show ap association,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-assoc.htm
+show ap blacklist-clients,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-bl-clnt.htm
+show ap bss-table,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-bss-table.htm
+show ap cacert,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ap-cacert.htm
+show ap database long,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ap-db-long.htm
+show ap database-summary,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ap-db-sum.htm
+show ap debug airmatch channels,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-dbg-am-ch.htm
+show ap debug airmatch feasibility,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-dbg-am-fsb.htm
+show ap debug airmatch nbr,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-dbg-am-nbr.htm
+show ap debug airmatch provision history,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-dbg-am-prh.htm
+show ap debug airmatch provision data,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-dbg-am-prv.htm
+show ap debug airmatch radio,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-dbg-am-rd.htm
+show ap debug airmatch report,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap_dbg-am-rep.htm
+show ap debug airmatch status {status},https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-dbg-am-st.htm
+show ap debug airslice client-stats,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ap-dbg-airsl-cl-sts.htm
+show ap debug auth-trace-buf+,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-debug-auth.htm
+show ap debug c2c-nodes,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-dbg-c2c-nds.htm
+show ap debug client-mgmt-counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-dbg-cm-mgm.htm
+show ap debug client-stats*,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-dbg-clt-st.htm
+show ap debug client-table,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-dbg-clt-tab.htm
+show ap debug cloud-config-received,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-debug-ccr.htm
+show ap debug cloud-domain-list,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-apd-cld-dom.htm
+show ap debug cloud-events-pending,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-debug-cep.htm
+show ap debug cloud-pingpong-stats,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-apd-cld-ping.htm
+show ap debug cloud-restore-status,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ap-debug-crs.htm
+show ap debug cloud-server,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-debug-cs.htm
+show ap debug cloud-signon-key,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-debug-csk.htm
+show ap debug cloud-state,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-debug-cls.htm
+show ap debug cloud-stats,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-debug-cst.htm
+show ap debug core-info,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ap-debug-ci.htm
+show ap debug crash-info,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-dbg-crash.htm
+show ap debug dot1x-statistics,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-debug-dot1x.htm
+show ap debug driver-config,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-debug-driv.htm
+show ap debug lldp counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ap-dbg-lldp-countrs.htm
+show ap debug lldp info,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ap-dbg-lldp-info.htm
+show ap debug lldp neighbor interface,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ap-dbg-lldp-ngbr-intrfc.htm
+show ap debug lldp state,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ap-dbg-lldp-state.htm
+show ap debug mgmt-frames+,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-debug-mgmt.htm
+show ap debug persistent-clients,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-debug-pc.htm
+show ap debug pmk-sync-statistics,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-dbg-pmk-sts.htm
+show ap debug radio-info,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ap-db-rad-in.htm
+show ap debug radio-stats 0,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-dbg-rad-st.htm
+show ap debug radio-stats 1,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-dbg-rad-st1.htm
+show ap debug radius-statistics,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-debug-rs.htm
+show ap debug shaping-table,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-dbg-shp-tbl.htm
+show ap debug stm-bucketmap,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-debug-stmb.htm
+show ap debug stm-config,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-debug-stmc.htm
+show ap debug stm-role,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-debug-stm.htm
+show ap debug subscribe-event-statistics,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-apd-subsc-evt.htm
+show ap debug system-status,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-dbg-sys-st.htm
+show ap dtls ephemeral-neighlist,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/showap-dtls-en.htm
+show ap dtls provisioned-neighlist,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/showap-dtls-pn.htm
+show ap-env,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-env.htm
+show ap global acl-table,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-glb-acl.htm
+show ap mesh active,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-msh-actv.htm
+show ap mesh cluster configuration,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-msh-clst-cfg.htm
+show ap mesh cluster stats,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-msh-clst-sts.htm
+show ap mesh cluster status,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-msh-clst-stat.htm
+show ap mesh cluster topology,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-msh-clst-topo.htm
+show ap mesh counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-mesh-count.htm
+show ap mesh link,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-mesh-link.htm
+show ap mesh neighbors,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-mesh-neigh.htm
+show ap mesh topology,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-msh-topo.htm
+show ap monitor status,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-monitor.htm
+show ap monitor ap-list,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-monitor-ap-list.htm
+show ap monitoe ap- list containment exclusion,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ap-mon-excl.htm
+show ap monitor active-laser-beams,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-mtr-act-lsr-bms.htm
+show ap monitor arp-cache,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-mtr-arp-cache.htm
+show ap monitor containment-info,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-monitor-cnt-inf.htm
+show ap monitor pot-ap-list,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-monitor-pot-aplist.htm
+show ap monitor pot-sta-list,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-monitor-pot-stlist.htm
+show ap monitor routers,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-monitor-router.htm
+show ap monitor scan-info,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-monitor-scan-inf.htm
+show ap monitor sta-list,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-monitor-instant.htm
+show ap mpskcache,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-mpskcache.htm
+show ap onboarding event,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ap-onbrd-evnt.htm
+show ap onboarding status,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ap-onbrd-st.htm
+show ap pmkcache,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-pmkcache.htm
+show ap power-mgmt-statistics,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-power-mng.htm
+show ap radio-summary,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-radio-sum.htm
+show ap roamcache,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-roamcache.htm
+show ap regulatory,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-regulatory.htm
+show ap spectrum monitors,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-spt-mon.htm
+show ap vlan-usage,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-vlan-usage.htm
+show ap wmm-flow,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ap-wmm-flow.htm
+show ap machine-authcache,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/showap-ma-auth.htm
+show app-monitoring list,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-app-mon-list.htm
+show aps,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/showaps.htm
+show aps scanning,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/showap-scan.htm
+show app-services,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-app-services.htm
+show arm config,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ata-cur-conf.htm
+show arp,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-arp.htm
+show aruba-central,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-aruba-central.htm
+show aruba-central control-channel,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ref-aruba-cen-cont-chan.htm
+show aruba-central control-channel-counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-acccc.htm
+show aruba central details,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ref-aruba-cen.htm
+show aruba central smart amon counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ac-sac.htm
+show aruba central stats counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ac-sc.htm
+show aruba central stats counters all,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ac-sca.htm
+show ata counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ata-count.htm
+show ata endpoint,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ata-endpoint.htm
+show auth-tracebuf,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-auth-tracebuf.htm
+show audit-trail,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-audit-trail.htm
+show audit-trail history,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-audit-trail-hist.htm
+show auth-survivability cached-info,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/show-auth-surviv.htm
+show boot,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-boot.htm
+show boot history,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-boot-hist.htm
+show captive-portal,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cap-portal.htm
+show captive-portal-domains,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cap-portal-do.htm
+show cellular config,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/showcellular.htm
+show cellular status,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/showcellular-stat.htm
+show clarity,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-clarity-config.htm
+show clarity history sta,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-clarity-hstry-sta.htm
+show clarity history sta-dns,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-clarity-hstry-sta-dns.htm
+show clarity stats,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-clarity-stas.htm
+show clients,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/show-clients.htm
+show clients debug,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/show-clients-debug.htm
+show clients debug advanced,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-cl-db-adv.htm
+show client status,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/show-client-status.htm
+show clients wired,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/show-clients-wired.htm
+show clients wired debug,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/show-clients-wired-deb.htm
+show clock,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-clock.htm
+show clock summer-time,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-clock-summ-time.htm
+show clock timezone,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-clock-timezone.htm
+show clock timezone all,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-clock-timezone-all.htm
+show cluster,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cluster.htm
+show cluster-config,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-cluster-conf.htm
+show cluster bss-table,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cluster-bss.htm
+show cluster-security,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-clustersec.htm
+show cluster-security connections,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-clst-sec-conn.htm
+show cluster-security peers,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-clstrsec-peer.htm
+show cluster-switches,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cl-switches.htm
+show cluster-tech-support,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cl-tech-sup.htm
+show configuration,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-conf.htm
+show configuration effective,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-conf-eff.htm
+show configuration failure,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-conf-fail.htm
+show configuration partial,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-cnf-par.htm
+show configuration pending,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-conf-pen.htm
+show configuration received,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-conf-rec.htm
+show control-plane-security,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-con-pln-secr.htm
+show country,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-country.htm
+show country-codes,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-country-co.htm
+show country trail,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-country-trail.htm
+show cp-bwcontracts,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cp-bwcontr.htm
+show cp-stats,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cp-stats.htm
+show cpu,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cpu.htm
+show cpu details,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cpu-details.htm
+show cpuload,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cpuload.htm
+show cpuload current,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cpuload-curr.htm
+show crashinfo,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-crashinfo.htm
+show crypto dp,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-crypto-dp.htm
+show crypto dynamic-map,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cry-dyn-map.htm
+show crypto ipsec ipsec-map-id,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cry-ipsec.htm
+show crypto ipsec sa,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cry-ipsec-sa.htm
+show crypto ipsec transform-set,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cry-ipsec-trsfrm-set.htm
+show crypto isakmp,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cry-isakmp.htm
+show crypto isakmp groupname,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cry-iskmp.htm
+show crypto isakmp key,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cry-iskmp-key.htm
+show crypto isakmp policy,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cry-isakmp-pol.htm
+show crypto isakmp policy,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cry-iskmp-pol.htm
+show crypto isakmp sa,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cry-iskmp-sa.htm
+show crypto isakmp stats,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cry-isakmp-stat.htm
+show crypto isakmp uplink-vlan,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cry-iskmp-upl.htm
+show crypto map,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cryp-map.htm
+show crypto oto,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-crypto-oto.htm
+show crypto-local ipsec-map,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cryp-lcl-ipsc.htm
+show crypto-local isakmp ca-certificate,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-crylcl-isk-ca.htm
+show crypto-local isakmp ca-certificate,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cry-lcl-iskmp-ca.htm
+show crypto-local isakmp certificate-group,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cry-lcl-iskmp-cert-grp.htm
+show crypto-local isakmp dpd,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-crylcl-isdpd.htm
+show crypto-local isakmp server-certificate,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cry-lcl-iskmp-svr-cert.htm
+show crypto-local pki,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cry-lcl-pki-trust-ca.htm
+show crypto-local pki CRL,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cry-lcl-pki-crl.htm
+show crypto-local pki ocsp-client-stats,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cry-lcl-pki-ocsp-clnt-stat.htm
+show crypto-local pki OCSPResponderCert,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-crylcl-pk-rsp.htm
+show crypto-local pki OCSPSignerCert,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cry-lcl-pki-ocsp-sign-stat.htm
+show crypto-local pki PublicCert,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-crylcl-pkpub.htm
+show crypto-local pki rcp,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cry-lcl-pki-rcp.htm
+show crypto-local pki ServerCert,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-cry-lcl-pki-svr-cert.htm
+show crypto-local pki service-ocsp-responder,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-crypk-sv-oc.htm
+show crypto-local pki TrustedCA,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-crylcl-pk-trs.htm
+show database synchronize,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-database-sync.htm
+show datapath,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-datapath.htm
+show datapath acl id 4,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-datapath-acl-4.htm
+show datapath acl id 2700,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-datapath-acl-2700.htm
+show datapath acl id 2701,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-datapath-acl-2701.htm
+show datapath acl id 2702,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-datapath-acl-2702.htm
+show datapath application counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dp-appl-cntr.htm
+show datapath bridge,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-datapath-bridge.htm
+show datapath bridge counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-datapath-bridge-countr.htm
+show datapath bridge table,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-datapath-bridge-table.htm
+show datapath bwm-table,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-datapath-bwm-table.htm
+show datapath cluster details,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-db-cl-det.htm
+show datapath cluster heartbeat counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-dp-cl-hb.htm
+show datapath cp-bwm table,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dp-cp-bwm-tab.htm
+show datapath crypto counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-datapath-crypt-countr.htm
+show datapath debug dma counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-datapath-dbg-dma-countr.htm
+show datapath debug eap counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-datapath-dbg-eap-countr.htm
+show datapath debug opcode,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-datapath-dbg-opcode.htm
+show datapath debug trace-buffer,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-datapath-dbg-trc-buffer.htm
+show datapath device,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-dtpth-dev.htm
+show datapath dns-id-map,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-datapath-dns-id-map.htm
+show datapath dns-ip-learning,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-dtpth-dns-ip-lrn.htm
+show datapath dpi-classification-cache,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-datapath%20dpi-class-cache.htm
+show datapath exthdr,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-exthdr.htm
+show datapath firewall-agg-sess,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-dp-frwl-agg-sess.htm
+show datapath frame,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-frm.htm
+show datapath frame counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-frm-cntr.htm
+show datapath hardware counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-hw-cntr.htm
+show datapath hardware statistics,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-hw-stat.htm
+show datapath internal dir poe file class_drop_ctrs,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-dp-idirpoefcd.htm
+show datapath internal dir poe file ecc_1bit_errs,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10sh-dp-idirpoeecc.htm
+show datapath internal dir poe file enq_msg_ctrs,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-enq-msg-ctrs.htm
+show datapath internal dir poe file err_regs,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-err-regs.htm
+show datapath internal dir poe file stats_n_dbg,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-stat-n-dbg.htm
+show datapath internal dir poe file vec_drop_ctrs,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-vec-drp-ctrs.htm
+show datapath internal dir sae file error_status,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-err-stts.htm
+show datapath internal dir sae file int_status,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-int-stts.htm
+show datapath internal dir sae file msg_cnt,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-msg-cnt.htm
+show datapath internal dir sae file op_cnt,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-op-cnt.htm
+show datapath ip-geolocation,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-dp-ip-geo-locn.htm
+show datapath ip-mcast destination,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-ip-mcast-dest.htm
+show datapath ip-mcast group,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-ip-mcast-grp.htm
+show datapath ip-reassembly counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-ip-reasmbl-cntr.htm
+show datapath ip-reputation,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-dp-ip-reputatn.htm
+show datapath ipsec-map,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-ipsec-map.htm
+show datapath ipv6-mcast destination,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-ipv6-mcast-dest.htm
+show datapath ipv6-mcast group,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-ipv6-mcast-grp.htm
+show datapath ipv6-mcast station,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-ipv6-mcast-sttn.htm
+show datapath l3-interface,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-dp-ip-l3-intrface.htm
+show datapath lag table,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-lag-tbl.htm
+show datapath maintenance counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-maint-cntr.htm
+show datapath message-queue counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-msg-q-cntr.htm
+show datapath mobility home-agent-table,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-mob-hom-agnt-tbl.htm
+show datapath mobility mcast-table,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-mob-mcast-tbl.htm
+show datapath mobility stats,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-mob-stat.htm
+show datapath nat-pool,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-dtpth-nat-pool.htm
+show datapath nat table,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-nat-tbl.htm
+show datapath netdest-id,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-datapath-netdest-id.htm
+show datapath network ingress,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-nw-ingrs.htm
+show datapath nexthop-list,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-nxthop-lst.htm
+show datapath openflow acl,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-of-acl.htm
+show datapath openflow session,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-of-ssn.htm
+show datapath papi counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-papi-cntr.htm
+show datapath port,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpt-port.htm
+show datapath route,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-dtpth-route.htm
+show datapath route-cache ipv6,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-dp-route-cache-ipv6.htm
+show datapath saas fastdpi-prefix-list,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-dp-saas-fstdpi-prfx-lst.htm
+show datapath saas fqdn,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-dp-saasfqdn.htm
+show datapath saas servers,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-dp-saassvr.htm
+show datapath session counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-dp-sencnt.htm
+show datapath session dpi counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-dp-sendpicnt.htm
+show datapath session dpi | include O,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-dtpth-ssn-dpi-incl-o.htm
+show datapath session ipv6 dpi | include O,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-dtpth-ssn-ipv6-dpi-inc-o.htm
+show datapath session table,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dp-sess-table.htm
+show datapath session ucc,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-dtpth-sess-ucc.htm
+show datapath session verbose,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dp-sess-vb.htm
+show datapath session web-cc,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dp-sess-wb-cc.htm
+show datapath statistics,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dtpath.htm
+show datapath subnet,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-dtpth-subnt.htm
+show datapath tunnel,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dp-tunnel.htm
+show datapath tunnel counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dp-tl-cntr.htm
+show datapath tunnel-group,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dp-tn-grp.htm
+show datapath tunnel heartbeat,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dp-tl-hrtbt.htm
+show datapath tunnel ipv6,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dp-tl-ipv6.htm
+show datapath tunnel ipv6 verbose,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dp-tl-ipv6-vb.htm
+show datapath tunnel verbose,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dp-tl-vb.htm
+show datapath uplink,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dp-up.htm
+show datapath uplink verbose,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dp-up-vb.htm
+show datapath user,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dp-user.htm
+show datapath user counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dp-user-cntr.htm
+show datapath user ipv6,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dp-user-ipv6.htm
+show datapath user table,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dp-user-tl.htm
+show datapath utilization,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dp-ut.htm
+show datapath vlan,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dp-vlan.htm
+show datapath vlan-mcast,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-dtpth-vlan-mcst.htm
+show datapath vlan-mcast table,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dp-vlan-mc-tl.htm
+show datapath vlan table,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dp-vlan-tl.htm
+show datapath wan counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dp-wan-cntr.htm
+show datapath wan hc,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dp-wan-hc.htm
+show datapath wan hits,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dp-wan-hits.htm
+show datapath wan policy,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dp-wan-pol.htm
+show datapath wan probestats,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dp-wan-ps.htm
+show datapath wan threshold,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dp-wan-th.htm
+show datapath web-cc counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dp-wb-cc.htm
+show ddns,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ddns.htm
+show ddns clients,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ddns-clients.htm
+show dds debug peers,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dds-db-pe.htm
+show dds debug stats,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dds-db-st.htm
+show debug,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-debug.htm
+show derivation-rules,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-deriv-rules.htm
+show dhcp-allocation,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dhcp-alloc.htm
+show dhcpc-opts,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dhcpc-opts.htm
+show dhcps,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-dhcps.htm
+show dpi application all,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-dpi-app.htm
+show dpi-classification-cache,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dpi-class-cache.htm
+show dpi debug status,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dpi.htm
+show dpi-stats session,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dpi-stats.htm
+show dot1x ap-table,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-dot1x-ap-tab.htm
+show dot1x counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-1x-counters.htm
+show dot1x eap-frag-mtu,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-1x-eap-frag-mtu.htm
+show dot1x watermark history,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-wm-hy.htm
+show dot1x watermark table active,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-wm-ta.htm
+show dot1x watermark table pending,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-wm-tp.htm
+show election statistics,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-election.htm
+show est profile,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-est-profile-gw.htm
+show est status,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-est-status-gw.htm
+show est status verbose,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-est-verbose-gw.htm
+show fault,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-fault.htm
+show fault history,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-fault-hy.htm
+show firewall,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-fw.htm
+show firewall-cp,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-fw-cp.htm
+show firewall-cp internal,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-fw-cp-in.htm
+show firewall-visibility-blk-session status,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-fw-vis-blk-st.htm
+show firewall-visibility debug,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-fw-vis.htm
+show firewall-visibility status,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-fw-vis-st.htm
+show flow-offload status,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-flow-offload.htm
+show gap-debug,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-gap-dbug.htm
+show gre config,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-gre-config.htm
+show gre status,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-gre-status.htm
+show gsm application all status,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-gsm-app.htm
+show gsm debug channel all status,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-gsm-db.htm
+show gsm debug channel bucket_map,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-gsm-db-bm.htm
+show gsm debug channel cluster,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-gsm-db-cc.htm
+show gsm debug channel cluster_ddg,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-gsm-db-cd.htm
+show gsm debug channel cluster_device,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-gsm-db-ce.htm
+show gsm debug channel cluster_tunneled_node,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-gsm-debug.htm
+show gsm debug channel cluster_user,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-gsm-dg-ch-cltr-ur.htm
+show gsm debug channel cluster_vdg,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-gsm-db-cc-vdg.htm
+show gsm debug channel dds_peer,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-gsm-dg-ch-dds-pr.htm
+show gsm debug channel device_info,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-gsm-dg-ch-dv-info.htm
+show gsm debug channel tunneled_node,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-gsm-dg-ch-tnd-nde.htm
+show gsm debug channel tunneled_user,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-gsm-dg-ch-tnld-ur.htm
+show ha ap table,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ha-ap.htm
+show ha group-membership,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ha-grp.htm
+show ha group-profile,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ha-grp-profile.htm
+show ha heartbeat counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ha-heart-cntr.htm
+show hcm nhinfo,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-hcm-nhinfo.htm
+show hcm probe-node,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-hcm-probe-node.htm
+show hcm probe-profile,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-hcm-probe-profile.htm
+show hcm telemetry-report counter,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-hcm-tlmtry-rprt-countr.htm
+show hcm telemetry-report unreported-details,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-hcm-tlmtry-unrprtd-dtls.htm
+show hcm vlaninfo,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-hcm-vlan-info.htm
+show hcm vpncinfo,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-hcm-vpnc-info.htm
+show iap detailed-table,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-iap-detailed.htm
+show iap table long,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-iap-table.htm
+show iap trusted-branch-db,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-iap-trust-br.htm
+show idps stats,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/show-ids.htm
+show idps summary,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/show-idps-smry.htm
+show ids aps,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/show-ids-aps.htm
+show ids client,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/show-ids-clients.htm
+show ids-detection,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ids-detect.htm
+show ids-protection,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ids-protect.htm
+show image version,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-image-ver.htm
+show inbound-firewall-rules,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-inb-firewl-rules.htm
+show interface counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-intf-vhst-ctrs.htm
+show interface loopback,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-intf-loopbck.htm
+show interface mgmt,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-intf-mgmt.htm
+show interface vlan,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-intf-vlan.htm
+show inventory,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-inventory.htm
+show ip access-list,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-accs-list.htm
+show ip bgp neighbors,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-bgp-nbr.htm
+show ip bgp,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-bgp.htm
+show ip dhcp,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-oap-advt.htm
+show ip dhcp database,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-dhcp-database.htm
+show ip dhcp statistics,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-dhcp-stats.htm
+show ip health-check,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-heal-chk.htm
+show ip-geolocation,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ip-geo.htm
+show ip health-check branch-mesh,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-iphlth-chkbran-mesh.htm
+show ip health-check branch-mesh verbose,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-iphlth-chkbran-mesh-verb.htm
+show ip health-check verbose,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-iphlth-chkverb.htm
+show ip igmp,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-igmp.htm
+show ip igmp config,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-igmp-cnfg.htm
+show ip igmp counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-igmp-cntr.htm
+show ip igmp group,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-igmp-grp.htm
+show ip igmp interface,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-igmp-intrfc.htm
+show ip igmp proxy group,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-igmp-pxy-grp.htm
+show ip igmp proxy-mobility-group,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-igmp-pxy-mb-grp.htm
+show ip igmp proxy mobility stats,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-igmp-prxy-mob-sts.htm
+show ip igmp proxy stats,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-igmp-prxy-sts.htm
+show ip interface brief,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-intfc-brf.htm
+show ip mobile active-domains,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-mobile.htm
+show ip mobile binding,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-mobile-bndgs.htm
+show ip mobile domian,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-mobile-dmn.htm
+show ip mobile global,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-mobile-gbl.htm
+show ip mobile hat,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-mobile-hat.htm
+show ip mobile host,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-mobile-host.htm
+show ip mobile multicast-vlan-table,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-mob-mtcst-vlan.htm
+show ip mobile traffic,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-mobile-trfc.htm
+show ip mobile tunnel,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ip-mob-tnl.htm
+show ip mobile visitor,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ip-mob-visit.htm
+show ip nexthop-list,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-nexthop-ls.htm
+show ip oap,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-oap.htm
+show ip oap advertise,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ip-oap-advert.htm
+show ip oap advertise verbose,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ip-oap-advert-verb.htm
+show ip oap hub-mesh nexthops,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ip-oap-msh-nxthops.htm
+show ip oap hub-mesh nodes,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ip-oap-msh-nodes.htm
+show ip oap hub-mesh topology,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ip-oap-msh-topo.htm
+show ip oap route,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ip-oap-route.htm
+show ip oap route all verbose,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ip-oap-route-all-verb.htm
+show ip oap tunnel,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ip-oap-tnl.htm
+show ip ospf,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-ospf.htm
+show ip ospf database,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-ospf-db.htm
+show ip ospf interface,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-ospf-interface.htm
+show ip ospf neighbor,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-ospf-neighbor.htm
+show ip pim group,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-pim-group.htm
+show ip pim statistics,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-pim-statistics.htm
+show ip pppoe-info,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-pppoe-info.htm
+show ip prefix-list,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-prefix.htm
+show ip probe,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-probe.htm
+show ip radius source-interface,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-radius.htm
+show ip-reputation,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ip-rep.htm
+show ip rip,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-rip.htm
+show ip rip interface,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-rip-intrfc.htm
+show ip rip neighbors,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-rip-nghbrs.htm
+show ip route,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-route.htm
+show ip route counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ip-route-counter.htm
+show ip vrf,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ip-vrf.htm
+show ipv6 dhcp database,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-ipv6-dhcp-dbs.htm
+show ipv6 firewall,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ipv6-firewall.htm
+show ipv6 global,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-v6-global.htm
+show ipv6 interface,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-v6-interface.htm
+show ipv6 mld config,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-v6-mld-config.htm
+show ipv6 mld counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-v6-mld-countr.htm
+show ipv6 mld group,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ipv6-mld-grp.htm
+show ipv6 mld interface,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-v6-mld-intf.htm
+show ipv6 mld proxy-group,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-v6-mld-prx-gr.htm
+show ipv6 mld proxy-mobility-group,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-v6-mprx-mbgrp.htm
+show ipv6 mld proxy-mobility-stats,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-v6-mprx-mbsts.htm
+show ipv6 mld proxy-stats,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-v6-mprx-stt.htm
+show ipv6 neighbors,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-v6-neighb.htm
+show ipv6 ra,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-v6-ra-proxy.htm
+show ipv6 route,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-v6-route.htm
+show iostat,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-iostat.htm
+show keys,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-keys.htm
+show lacp,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-lacp.htm
+show lacp status,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-lacp-stat.htm
+show lc-cluster exclude-vlan,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-lc-clstr-ex-vlan.htm
+show lc-cluster group-membership,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-lc-clust-grp-mem.htm
+show lc-cluster group profile,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-lc-clstr-pro.htm
+show lc-cluster gsm counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-lc-clstr-gsm.htm
+show lc-cluster heartbeat counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-lc-clstr-heartbeat.htm
+show lc-cluster history,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-lc-clstr-hist.htm
+show lc-cluster load distribution ap,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-lc-clstr-ap.htm
+show lc-cluster load distribution client,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-lc-clstr-clnt.htm
+show lc-cluster papi counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-lc-clstr-papi.htm
+show lc-cluster vlan-probe,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-lc-clstr-stat.htm
+show lldp interface,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-lldp-intf.htm
+show lldp neighbor,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-lldp-neighbor.htm
+show lldp statistics,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-lldp-stats.htm
+show lhm status,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-lhm.htm
+show license client-table,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-lic-cltbl.htm
+show license debug,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-lic-db.htm
+show license heartbeat stats,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-lic-hrtbts.htm
+show license verbose,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-lic-vbr.htm
+show loginsessions,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-loginsess.htm
+show log all,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-log-all.htm
+show log all | include central,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-log-all-include-central.htm
+show log ap-debug,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-log-usr-dbg.htm
+show log arm all,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-log-arm-usr.htm
+show log arm-user-debug all,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-log-arm-dbg.htm
+show log convert,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-log-convert.htm
+show log debug,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-log-debug.htm
+show log driver,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-log-driver.htm
+show log errorlog,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-log_error.htm
+show log kernel,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/show_log_kernel.htm
+show log l3-mobility,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-log-l3mobil.htm
+show log network,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-log-ntwk.htm
+show log network all,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-log-ntwk-all.htm
+show log openflow,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-log-openflow.htm
+show log pppd,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/show-log-pppd.htm
+show log provision,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-show_log_provision.htm
+show log rapper,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/show-log-rapper.htm
+show log rtls-to-cloud,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-log-rtls-clo.htm
+show log sapd,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/show-log-sapd.htm
+show log security,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/show-log-security.htm
+show log security all,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-log-securty-all.htm
+show log system,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/show-log-system.htm
+show log system all,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-log-system-all.htm
+show log upgrade,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-log-upgrad.htm
+show log user,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/show-log-user.htm
+show log user all,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-log-user-all.htm
+show log user-debug,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/show-log-user-debug.htm
+show log user-debug all,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-log-usr-dbg-all.htm
+show log vpn-tunnel,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-log-vpn-tunn.htm
+show log wireless,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-log-wireless.htm
+show log wireless all,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-log-wireless-all.htm
+show mac-address-table,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-mac-add-tab.htm
+show master-local stats,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-mstr-lcl-stat.htm
+show memory,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/showmemory.htm
+show memory debug,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-memory-debug.htm
+show memory ecc,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-memory-ecc.htm
+show netdestination,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-netdst.htm
+show netstat stats,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-netstat.htm
+show network,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/shownetwork.htm
+show ip nexthop-list,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-nexthop-list.htm
+show ip nexthop-list-details,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-nexthop-list-details.htm
+show ntp authentication-keys,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ntp-auth-keys.htm
+show ntp debug,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/show-ntp-debug.htm
+show ntp servers,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-ntp-servers.htm
+show ntp status,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/show-ntp-status.htm
+show opendns support,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-opendns-supp.htm
+show openflow capabilities,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-openflow-cap.htm
+show openflow clickstream-statistics,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-openfl-clickstr.htm
+show openflow controller,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-openfl-contr.htm
+show openflow controller detail,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-openfl-contr-deta.htm
+show openflow debug ap-client state,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-openfl-deb-apclient.htm
+show openflow debug event,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-openfl-deb-event.htm
+show openflow debug flows,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-openfl-deb-flow.htm
+show openflow debug ports,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-openfl-deb-port.htm
+show openflow flow-table,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-openfl-flowtab.htm
+show openflow ports,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-openfl-ports.htm
+show openflow-profile,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-openfl-pro.htm
+show openflow statistics,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-openfl-statis.htm
+show overlay bucketmap status,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-bucketmap-stat.htm
+show overlay cluster-info,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-overlay-clusterinfo.htm
+show overlay multicast-vlan,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-overlay%20multicast-vlan.htm
+show overlay ssid-cluster status,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-overlay%20ssid-cluster%20status.htm
+show overlay tunnel config,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-overlay-tunnconf.htm
+show packet-capture-defaults,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/showpacketcapture.htm
+show papi kernel-socket-stats,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-papi-kernel.htm
+show port link-event,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-port-link-event.htm
+show pppoe debug-logs,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/showpppoe.htm
+show pppoe status,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-pppoe-status.htm
+show process,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/showprocess.htm
+show processes,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-processes.htm
+show process monitor statistics,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-process-monitor-stats.htm
+show port status,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-portstatus.htm
+show port-bonding status,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-port-bonding-status.htm
+show proxy,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-show_proxy_config.htm
+show proxy config,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-show_proxy.htm
+show radius-attributes,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-rad-att.htm
+show radio config,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-radio-config.htm
+show radius status,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-radius-stat.htm
+show radius-servers support,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-rad-serv-supp.htm
+show rights,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-rights.htm
+show roleinfo,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-roleinfo.htm
+show route-access-list,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-rout-acc-lst.htm
+show routing-profile,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-rout-prof.htm
+show route map,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-route-map.htm
+show running-config,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-run-conf.htm
+show saas app-list all,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-saas-app-li.htm
+show saas dns-list,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-saas-dnsl.htm
+show saas dns-transactions,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-saas-dnstr.htm
+show saas fastdpi-prefix-list,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-saas-fstdpi-pref.htm
+show saas path-steer-profile,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-saas-psp.htm
+show saas threshold-profile,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-saas-tp.htm
+show slots,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-slots.htm
+show snmp community,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-snmp-comm.htm
+show snmp inform stats,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-snmp-inform.htm
+show socket,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-sockets.htm
+show spantree,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-spantree.htm
+show spanning-tree,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-span-tree.htm
+show speed-test data,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-speed-test-data.htm
+show station-table,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-station-tab.htm
+show stm,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-stm.htm
+show storage,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-storage.htm
+show stun client debug,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-stun-cl-dbg.htm
+show swarm state,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-swarm-state.htm
+show syslocation,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-syslocation.htm
+show tech-support,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-tech-sup.htm
+show threshold-limits,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-thresh-lim.htm
+show threshold-limits controlpath-memory,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-tl-cm.htm
+show threshold-limits no-of-aps,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-th-laps.htm
+show threshold-limits no-of-locals,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-th-llocals.htm
+show threshold-limits total-tunnel-capacity,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-th-lcapacity.htm
+show threshold-limits user-capacity ,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-th-li-ucp.htm
+show tpm,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-tpm.htm
+show tpm cert-info,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-tpm-crtinf.htm
+show tpm errorlog,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-tpm-erlog.htm
+show trunk,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-trunk.htm
+show tunnelmgr counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-tunlmgr-cntr.htm
+show tunnelmgr tunnel-list,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-tunlmgr-tnl-lst.htm
+show tunneled-node,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-tunnel-node.htm
+show tunneled-node config,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-tn-nd-cnf.htm
+show tunneled-node database,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-tn-nd-db.htm
+show tunneled-node state,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-tn-nd-st.htm
+show tunneled-node-mgr,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-tunl-node-mgr.htm
+show tunneled-node-mgr cluster-bucket-map,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-tn-nd-mg-cl-bm.htm
+show tunneled-node-mgr cluster-node-list verbose,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-tn-nd-mg-cl-nl-vrb.htm
+show tunneled-node-mgr gsm-counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-tn-nd-mg-gsm-co.htm
+show tunneled-node-mgr mcast-tunnel-table,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-tn-nd-mg-mc-tn-tb.htm
+show tunneled-node-mgr mcast-vlan-user-map,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-tn-nd-mc-vl-us-mp.htm
+show tunneled-node-mgr node-heartbeat-table,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-tn-nd-mg-ht.htm
+show tunneled-node-mgr stats,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-tn-nd-mg-st.htm
+show tunneled-node-mgr trace-buf,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-tn-nd-mg-trbf.htm
+show tunneled-node-mgr tunneled-nodes,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-tn-nd-mg-tnnd.htm
+show tunneled-node-mgr tunneled-users,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-tn-nd-mg-tnusr.htm
+show tunneled-node-mgr tunnel-vlan-user-map,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-tn-nd-mg-tnvlu.htm
+show tunneled-node-mgr user-tunnel-table,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-tn-ndm-ustntb.htm
+show ucm cdrs,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-show-ucm-cdrs.htm
+show upgrade info,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-upgrade.htm
+show uplink,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-uplnk.htm
+show uplink cellular config,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-uplnk-cc.htm
+show uplink cellular connection-logs,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-uplnk-ccl.htm
+show uplink cellular signal,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-uplink-signal.htm
+show uplink debug,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-uplnk-debug.htm
+show uplink stats,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-uplink-stats.htm
+show uplink status,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-uplink-status.htm
+show usb,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-usb.htm
+show user,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-user.htm
+show user-table,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-user-tab.htm
+show user-table verbose,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-user-tab-verb.htm
+show valid-channels,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/show-valid-chan.htm
+show version,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-version.htm
+show vlan,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-vlan.htm
+show vlan-assignment,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-vlan-assign.htm
+show vlan mapping,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-vlan-map.htm
+show vlan status,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-vlan-status.htm
+show vpdn l2tp configuration,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-vpdn-l2pt-cof.htm
+show vpdn l2tp local pool,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-vpdn-l2tp-lp.htm
+show vpdn pptp configuration,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-vpdn-pptpconf.htm
+show vpdn pptp local pool,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-vpdn-pptp.htm
+show vpdn tunnel l2tp,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-vpdn-tun-l2tp.htm
+show vpn-dialer,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-vpn-dialr.htm
+show vrrp,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-vrrp.htm
+show vrrp ipv6,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-vrrp-ipv6.htm
+show vrrp ipv6 stats all,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-vrrp-ipv6-stat.htm
+show vrrp stats all,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-vrrp-stat-all.htm
+show wan debug ipsecmap,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-wan-debug-ipsecmac.htm
+show wan hits,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-wan-hits.htm
+show wan ip-sla-profiles,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-wan-ip-sla-profiles.htm
+show wan ip-sla-stats,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-wan-ip-sl.htm
+show wan nexthop-list,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-wan-nexthop-ls.htm
+show wan pcl-table,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-wan-pcl-tab.htm
+show wan policy-list,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-wan-pol-list.htm
+show wan probe-profiles,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-wan-pr-prof.htm
+show wan session-counters,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-wan-sess-count.htm
+show wan threshold-profiles,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-wan-thresh-prof.htm
+show wan threshold-stats,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-wan-thresh-stats.htm
+show web-cc,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-web-cc.htm
+show web-cc stats,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-web-cc-stats.htm
+show web-cc status,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-webcc-status.htm
+show whitelist-db cpsec,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-whtlstdb-cps%20-%20Copy.htm
+show whitelist-db cpsec-local-switch-list,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-wl-db-cp-lcl.htm
+show whitelist-db cpsec-seq,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-wl-db-cp-seq.htm
+show whitelist-db cpsec-status,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-wl-db-cp-sta.htm
+show whitelist-db cpsec-stats,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-wl-db-cp-stat.htm
+show whitelist-db rap,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-wl-db-rap.htm
+show whitelist-db rap long,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-wl-db-rap-lng.htm
+show whitelist-db rap-local-switch-list,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-wl-dbr-lcl-sw.htm
+show whitelist-db rap-master-switch-list,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-wl-dbr-master.htm
+show whitelist-db rap-status,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-wl-dbr-status.htm
+show wificall-dns-patterns,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-wifical-dns-patrns.htm
+show wired-port-settings,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-wired-port-se.htm
+show wispr config,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/show-wispr-conf.htm

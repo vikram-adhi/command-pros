@@ -1,0 +1,2 @@
+Command,Link,Description
+show aaa auth-survivability,https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-aaa-auth-surv.htm,This command displays the authentication survivability configuration on a stand-alone controller.
