@@ -1,3 +1,5 @@
 config.ini
 env/
 *.png
+embedding*
+dataset/test/*
