@@ -6,6 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from configparser import ConfigParser
 import pickle
 import time
+from heapq import heappush, heappop
 
 #Read configuration from a Config file 
 config = ConfigParser()
@@ -15,15 +16,8 @@ openai.api_key = config.get('Azure OpenAI','api_key')
 openai.api_base = config.get('Azure OpenAI','api_base')
 openai.api_version ="2023-05-15"
 
-# Load embeddings from the pre-generated CSV file
-embedding_df = pd.read_csv("embeddings_data.csv")
-embedding_csv_file = "./dataset/embeddings_data.csv"
+embedding_dict_file = "./dataset/AOS10/embedding.pkl"
 
-if not os.path.isfile(embedding_csv_file):
-    print(f"Embeddings CSV file ({embedding_csv_file}) does not exist. Please run generate_embeddings.py first.")
-    exit()
-
-embedding_dict_file = "aos10.pkl"
 try:
     with open(embedding_dict_file, 'rb') as file:
         embedding_dict = pickle.load(file)
@@ -40,16 +34,28 @@ def search_similar_descriptions(user_input):
     end_time = time.time()
     most_similar_embedding = None
     max_similarity = 0
-    
+
+    top3_heap = []
+
+    # Iterate through each embedding
     for embedding, (command, link) in embedding_dict.items():
         similarity = cosine_similarity([embedding], [user_embedding])
-        if similarity > max_similarity:
-            most_similar_embedding = embedding
-            max_similarity = similarity
+
+        # If the heap is not full yet, add the current similarity
+        if len(top3_heap) < 3:
+            heappush(top3_heap, (similarity, link, command))
+        else:
+            # If the current similarity is greater than the smallest in the heap,
+            # replace the smallest with the current similarity
+            if similarity > top3_heap[0][0]:
+                heappop(top3_heap)
+                heappush(top3_heap, (similarity, link, command))
+        
+        elapsed_time = end_time-start_time
     
-    elapsed_time = end_time-start_time
-    # Return the corresponding (command, link) pair
-    return embedding_dict[most_similar_embedding],elapsed_time
+    top3_results = [(command, link, similarity) for _, command, link in sorted(top3_heap, reverse=True)]
+
+    return top3_results,elapsed_time
 
 
 def main():
@@ -57,13 +63,18 @@ def main():
     parser = argparse.ArgumentParser(description="Search for similar descriptions and get corresponding command and link.")
     parser.add_argument("user_input", help="User input description for search")
     args = parser.parse_args()
-    result,elapsed_time = search_similar_descriptions(args.user_input)
+    top3, elapsed_time = search_similar_descriptions(args.user_input)
 
-    if result:
-        command, link = result
+    print(top3)
+    print("\n")
+    if top3:
+        link, command, similarity = top3[0][0], top3[0][1], top3[0][2]
         print("Command:", command)
         print("Link:", link)
-        print("time:",elapsed_time)
+        print("Similarity:", similarity[0][0])
+
+    print("time:",elapsed_time)
+    
 
 if __name__ == "__main__":
     main()
