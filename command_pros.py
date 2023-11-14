@@ -17,7 +17,7 @@ openai.api_version ="2023-05-15"
 
 # Load embeddings from the pre-generated CSV file
 embedding_df = pd.read_csv("embeddings_data.csv")
-embedding_csv_file = "embeddings_data.csv"
+embedding_csv_file = "./dataset/embeddings_data.csv"
 
 if not os.path.isfile(embedding_csv_file):
     print(f"Embeddings CSV file ({embedding_csv_file}) does not exist. Please run generate_embeddings.py first.")
