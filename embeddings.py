@@ -5,15 +5,14 @@ from configparser import ConfigParser
 #Read configuration from a Config file 
 config = ConfigParser()
 config.read('config.ini')
-openai.api_type = config.get('Azure OpenAI','api_type')
+openai.api_type = "azure"
 openai.api_key = config.get('Azure OpenAI','api_key')
 openai.api_base = config.get('Azure OpenAI','api_base')
-openai.api_version = config.get('Azure OpenAI','api_version')
+openai.api_version = "2023-05-15"
 
 # Load your dataset from CSV
 file_path = "train_data.csv"
 df = pd.read_csv(file_path)
-
 embeddings = []
 # Generate embeddings for the column descriptions
 for description in df["Description"]:
@@ -23,7 +22,7 @@ for description in df["Description"]:
     else:
         print(f"Error processing description: {description}")
         print(response)
-        
+
 # Add the embeddings to the DataFrame
 df['Embedding'] = embeddings
 
