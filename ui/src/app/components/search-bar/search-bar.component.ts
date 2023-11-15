@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup } from '@angular/forms';
 import { CommandSearchService } from 'src/app/_services/command-search.service';
+
 interface Product {
   value: string;
   viewValue: string;
@@ -9,6 +10,7 @@ interface Command {
   command: string;
   link: string;
   score: number;
+  description: string
 }
 
 @Component({
@@ -22,23 +24,27 @@ export class SearchBarComponent implements OnInit {
   formGroup: FormGroup;
   isLoading:boolean = false;
   topResults: Command[] = [];
-  // topResults:Command[] = [
+  // topResults:Command[] =  [
   //   {
   //     "command": "show lc-cluster load distribution ap",
   //     "link": "https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-lc-clstr-ap.htm",
-  //     "score": 85.69
+  //     "score": 86.51,
+  //     "description": "This command displays information related to the current load distribution on the AP."
   //   },
   //   {
   //     "command": "show flow-offload status",
   //     "link": "https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/a10-sh-flow-offload.htm",
-  //     "score": 82.4
+  //     "score": 82.51,
+  //     "description": "This command displays the current status of flow offload configuration of the AP."
   //   },
   //   {
-  //     "command": "show port status",
-  //     "link": "https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-portstatus.htm",
-  //     "score": 80.88
+  //     "command": "show app-services",
+  //     "link": "https://www.arubanetworks.com/techdocs/CLI-Bank/Content/aos10/sh-app-services.htm",
+  //     "score": 80.97,
+  //     "description": "This command displays the list of application services available on AP."
   //   }
   // ]
+
   timetaken: number = 0;
   copyClipboard = "Copy"
 
