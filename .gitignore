@@ -5,3 +5,4 @@ embedding*
 dataset/test/*
 .DS_Store
 *.pyc
+*/backup/*

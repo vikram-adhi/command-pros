@@ -41,7 +41,7 @@ def search_similar_descriptions(user_input, embedding_dict_file = "./dataset/AOS
         similarity = cosine_similarity([embedding], [user_embedding])
         similarity = round(similarity[0][0] * 100, 2)
         # If the heap is not full yet, add the current similarity
-        if len(top3_heap) < 3:
+        if len(top3_heap) < 5:
             heappush(top3_heap, (similarity, link, command, description))
         else:
             # If the current similarity is greater than the smalle
