@@ -66,6 +66,7 @@ export class SearchBarComponent implements OnInit {
   }
 
   fetchCommands(){
+    this.topResults = [];
     this.isLoading = true;
     const payload = this.formGroup.value;
     this.commandSearch.retrieveCommands(payload).subscribe(
@@ -77,11 +78,6 @@ export class SearchBarComponent implements OnInit {
         console.log(err)
         this.isLoading = false;
     });
-  }
-
-  copyCommandToClipboard(command: string): void {
-    // Implement logic to copy command to clipboard
-    console.log('Command copied to clipboard:', command);
   }
 
 }

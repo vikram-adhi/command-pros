@@ -26,14 +26,14 @@
               placeholder="your search here"
               class="mr-2"
             />
-            <mat-spinner diameter="20" *ngIf="isLoading"></mat-spinner>
+            <!-- <mat-spinner diameter="20" *ngIf="isLoading"></mat-spinner> -->
           </div>
         </mat-form-field>
         <button
           mat-mini-fab
           color="primary"
           class="mt-2"
-          style="margin-left: 5px"
+          style="margin-left: 5px; background-color: #00A881;"
           (click)="fetchCommands()"
         >
           <mat-icon>keyboard_arrow_right</mat-icon>
@@ -43,7 +43,14 @@
   </form>
 </div>
 
+<div class="row justify-content-center">
+  <mat-spinner diameter="30" *ngIf="isLoading"></mat-spinner>
+</div>
 <div class="container mt-3" *ngIf="topResults.length !== 0">
+  <mat-spinner diameter="30" *ngIf="isLoading" class="align-center"></mat-spinner>
+  <div>
+    <h3 class="mb-3 display-1"><strong>Top Results</strong></h3>
+  </div>
   <div *ngFor="let item of topResults" class="mb-3">
     <div class="card">
       <div class="card-body">

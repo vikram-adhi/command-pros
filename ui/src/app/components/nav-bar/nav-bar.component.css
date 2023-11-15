@@ -26,7 +26,7 @@ body {
   justify-content: space-between;
   padding: 20px;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.1);
-    border-bottom: 2px solid #c5c3c8;
+  border-bottom: 2px solid #c5c3c8;
 }
 
 /* Style the logo */
@@ -94,8 +94,8 @@ body {
 }
 
 .title {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    font-size: 24px;
-    color: #333;
-  }
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #333;
+}
