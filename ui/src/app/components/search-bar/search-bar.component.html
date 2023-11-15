@@ -1,25 +1,40 @@
-<!-- my-component.component.html -->
-<div class="container">
-
-<button id="basic" type="button" mat-button>
-    Basic button
-  </button>
-  <!-- <mat-form-field appearance="fill">
-    <mat-label>Choose a product</mat-label>
-    <select matNativeControl>
-      <option value="" selected></option>
-      <option value="aos10">AOS10</option>
-      <option value="aos8">AOS8</option>
-      <option value="cppm">CPPM</option>
-    </select>
-  </mat-form-field>
-
-  <div class="search-bar">
-    <mat-form-field appearance="outline" class="search-input">
-      <input matInput type="text" placeholder="Search Command" />
-    </mat-form-field>
-    <button mat-raised-button color="primary" class="search-button">
-      Search
-    </button>
-  </div> -->
+<div class="container p-2 pt-3">
+  <form class="example-container" [formGroup]="formGroup">
+    <div class="row">
+      <div class="col-2">
+        <mat-form-field appearance="fill" class="w-100">
+          <mat-label>Choose a product</mat-label>
+          <mat-select formControlName="product">
+            <mat-option
+              *ngFor="let product of products"
+              [value]="product.value"
+            >
+              {{ product.viewValue }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+      <div class="col-10 d-flex">
+        <!-- Code for search bar -->
+        <mat-form-field appearance="fill" class="w-100">
+          <mat-label>Command Search</mat-label>
+          <input
+            matInput
+            type="text"
+            formControlName="input_text"
+            placeholder="Command Search"
+          />
+        </mat-form-field>
+        <button
+          mat-mini-fab
+          color="primary"
+          class="mt-2"
+          style="margin-left: 5px"
+          (click)="fetchCommands()"
+        >
+          <mat-icon>keyboard_arrow_right</mat-icon>
+        </button>
+      </div>
+    </div>
+  </form>
 </div>

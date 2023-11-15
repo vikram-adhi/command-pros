@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { FormControl, FormGroup } from '@angular/forms';
-import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatSelectModule } from '@angular/material/select';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-
+import { FormBuilder, FormControl, FormGroup } from '@angular/forms';
+interface Product {
+  value: string;
+  viewValue: string;
+}
 @Component({
   selector: 'app-search-bar',
   templateUrl: './search-bar.component.html',
@@ -11,9 +11,26 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 })
 export class SearchBarComponent implements OnInit {
 
-  constructor() { }
+  selectedProduct: string = '';
+  formGroup: FormGroup;
+
+  products: Product[] = [
+    {value: 'aos10', viewValue: 'AOS10'},
+    {value: 'aos8', viewValue: 'AOS8'},
+    {value: 'cppm', viewValue: 'CPPM'},
+  ];
+  constructor(private fb: FormBuilder) {
+    this.formGroup = this.fb.group({
+      product: new FormControl(''),
+      input_text: new FormControl('')
+    });
+  }
 
   ngOnInit(): void {
+  }
+
+  fetchCommands(){
+    console.log(this.formGroup.value);
   }
 
 }
