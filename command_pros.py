@@ -37,32 +37,32 @@ def search_similar_descriptions(user_input, embedding_dict_file = "./dataset/AOS
     top3_heap = []
 
     # Iterate through each embedding
-    for embedding, (command, link) in embedding_dict.items():
+    for embedding, (command, link, description) in embedding_dict.items():
         similarity = cosine_similarity([embedding], [user_embedding])
         similarity = round(similarity[0][0] * 100, 2)
         # If the heap is not full yet, add the current similarity
         if len(top3_heap) < 3:
-            heappush(top3_heap, (similarity, link, command))
+            heappush(top3_heap, (similarity, link, command, description))
         else:
             # If the current similarity is greater than the smalle
             # replace the smallest with the current similarity
             if similarity > top3_heap[0][0]:
                 heappop(top3_heap)
-                heappush(top3_heap, (similarity, link, command))
+                heappush(top3_heap, (similarity, link, command, description))
         
         elapsed_time = end_time-start_time
     
-    top3_results = [(command, link, score) for score, command, link in sorted(top3_heap, reverse=True)]
+    top3_results = [(command, link, score, description) for score, command, link, description in sorted(top3_heap, reverse=True)]
 
     return top3_results, elapsed_time
 
 def command_retriever(user_input, product):
     if(product == 'aos10'):
-        top3, elapsed_time = search_similar_descriptions(user_input, embedding_dict_file = "./dataset/AOS10/embedding.pkl")
+        top_results, elapsed_time = search_similar_descriptions(user_input, embedding_dict_file = "./dataset/AOS10/embedding.pkl")
     elif(product == 'aos8'):
-        top3, elapsed_time = search_similar_descriptions(user_input, embedding_dict_file = "./dataset/AOS8/embedding.pkl")
+        top_results, elapsed_time = search_similar_descriptions(user_input, embedding_dict_file = "./dataset/AOS8/embedding.pkl")
     elif(product == 'cppm'):
-        top3, elapsed_time = search_similar_descriptions(user_input, embedding_dict_file = "./dataset/CPPM/embedding.pkl")
+        top_results, elapsed_time = search_similar_descriptions(user_input, embedding_dict_file = "./dataset/CPPM/embedding.pkl")
     else:
         print("Invalid product name")
 
@@ -70,13 +70,13 @@ def command_retriever(user_input, product):
 
     json = {"top3": [], "time_taken": elapsed_time, "user_input": user_input, "product": product, "status": "success"}
 
-    for item in top3:
-        link, command, score_percent = item
-        print(item)
+    for item in top_results:
+        link, command, score_percent, description = item
         json["top3"].append({
             'command': command,
             'link': link,
-            'score': score_percent
+            'score': score_percent,
+            'description': description
         })
     return json
 
