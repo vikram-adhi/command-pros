@@ -17,13 +17,17 @@
       <div class="col-10 d-flex">
         <!-- Code for search bar -->
         <mat-form-field appearance="fill" class="w-100">
-          <mat-label>Command Search</mat-label>
-          <input
-            matInput
-            type="text"
-            formControlName="input_text"
-            placeholder="Command Search"
-          />
+          <mat-label>AI Command Search</mat-label>
+          <div class="d-flex align-items-center">
+            <input
+              matInput
+              type="text"
+              formControlName="input_text"
+              placeholder="your search here"
+              class="mr-2"
+            />
+            <mat-spinner diameter="20" *ngIf="isLoading"></mat-spinner>
+          </div>
         </mat-form-field>
         <button
           mat-mini-fab
@@ -37,4 +41,41 @@
       </div>
     </div>
   </form>
+</div>
+
+<div class="container mt-3" *ngIf="topResults.length !== 0">
+  <div *ngFor="let item of topResults" class="mb-3">
+    <div class="card">
+      <div class="card-body">
+        <div class="card-text">
+          <div class="row">
+            <div class="col-10">
+              <h3 class="command-text">{{ item.command }}</h3>
+            </div>
+            <div class="col-2">
+              <div class="justify-content-end align-items-right d-flex gap-2">
+                <button
+                  class="btn btn-sm btn-outline-success float-right mr-3"
+                  [matTooltip]="copyClipboard"
+                  [matTooltipPosition]="'left'"
+                  [cdkCopyToClipboard]="item.command"
+                  (click)="copyClipboard = 'Copied!'"
+                  (mouseout)="copyClipboard = 'Copy'"
+                >
+                  <mat-icon>content_copy</mat-icon>
+                </button>
+                <a
+                  href="{{ item.link }}"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-info float-right mr-3"
+                >
+                  <mat-icon>open_in_new</mat-icon>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

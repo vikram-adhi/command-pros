@@ -12,6 +12,11 @@ import { MatSelectModule } from '@angular/material/select';
 import {MatButtonModule} from '@angular/material/button';
 import {MatInputModule} from '@angular/material/input';
 import {MatIconModule} from '@angular/material/icon';
+import { HttpClientModule } from '@angular/common/http';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import {ClipboardModule} from '@angular/cdk/clipboard';
+import {MatTooltipModule} from '@angular/material/tooltip';
+
 @NgModule({
   declarations: [AppComponent, NavBarComponent, SearchBarComponent],
   imports: [
@@ -24,7 +29,11 @@ import {MatIconModule} from '@angular/material/icon';
     MatSelectModule,
     MatButtonModule,
     MatInputModule,
-    MatIconModule
+    MatIconModule,
+    HttpClientModule,
+    MatProgressSpinnerModule,
+    ClipboardModule,
+    MatTooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent],

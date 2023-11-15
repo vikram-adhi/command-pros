@@ -71,7 +71,8 @@ def command_retriever(user_input, product):
     json = {"top3": [], "time_taken": elapsed_time, "user_input": user_input, "product": product, "status": "success"}
 
     for item in top3:
-        command, link, score_percent = item
+        link, command, score_percent = item
+        print(item)
         json["top3"].append({
             'command': command,
             'link': link,
