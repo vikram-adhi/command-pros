@@ -1,0 +1,101 @@
+/* Reset some default styles and provide a basic layout */
+body,
+h1,
+h2,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Define styles for the outer container */
+.nav-bar {
+  background-color: #fff; /* Change this to your desired background color */
+  color: #000; /* Change this to your desired text color */
+}
+
+/* Style the title bar layout */
+.title-bar-layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #c5c3c8;
+}
+
+/* Style the logo */
+.logo {
+  text-decoration: none;
+  color: #fff; /* Change this to your desired text color */
+}
+
+/* Style the navigation links */
+.navigation-wrapper ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.navigation-wrapper li {
+  margin-right: 20px; /* Adjust as needed */
+}
+
+.navigation-wrapper a {
+  text-decoration: none;
+  color: #000; /* Change this to your desired text color */
+  font-weight: bold;
+}
+
+/* Style the central account dropdown */
+.central-account-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.central-dropdown {
+  position: relative;
+  margin-left: 20px; /* Adjust as needed */
+}
+
+.central-account-drop {
+  text-decoration: none;
+  color: #fff; /* Change this to your desired text color */
+  cursor: pointer;
+}
+
+.central-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333; /* Change this to your desired background color */
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.central-dropdown-content a {
+  color: #000; /* Change this to your desired text color */
+  padding: 12px;
+  display: block;
+  text-decoration: none;
+}
+
+.central-dropdown-content a:hover {
+  background-color: #555; /* Change this to your desired hover background color */
+}
+
+.central-separator {
+  border: 0.5px solid #000; /* Change this to your desired separator color */
+  margin: 8px 0;
+}
+
+.title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+  }
