@@ -1,6 +1,5 @@
 config.ini
 env/
-*.png
 embedding*.csv
 dataset/test/*
 .DS_Store
