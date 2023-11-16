@@ -112,5 +112,5 @@ Following are the steps that need to be followed for the programg execution.
 
 If you face any issue in setting up, kindly contact the TechCon Hackathon contributors. Feedback and suggestions are always welcome.
 
-1. [Nithishkumar K R](nithishkumar.kuduva-ravi-sankar@hpe.com)
-2. [Vikram Adithya](vikram-adithya-reddy.yataluru@hpe.com)
+1. [Nithishkumar K R](mailto:nithishkumar.kuduva-ravi-sankar@hpe.com)
+2. [Vikram Adithya](mailto:vikram-adithya-reddy.yataluru@hpe.com)
