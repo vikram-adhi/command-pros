@@ -3,6 +3,7 @@ from command_pros import command_retriever
 from model import CommandRetriever
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi import Request
+from fastapi.responses import JSONResponse
 import time
 import configparser
 
@@ -31,7 +32,7 @@ async def add_process_time_header(request: Request, call_next):
     response.headers["X-Process-Time"] = str(process_time)
     return response
 
-@app.post('/command-retriever')
+@app.post('/command-retriever',response_class = JSONResponse)
 async def fetch_commands(request: CommandRetriever):
     user_input = request.input_text
     product = request.product
