@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'command-pros'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B3D98CA4C11A472A815AD6AE786FE1F0 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E3278D923D88461795841B623258219B }}
