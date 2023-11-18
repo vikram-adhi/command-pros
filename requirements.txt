@@ -1,5 +1,4 @@
-openai
-faiss-cpu
+openai==0.28
 selenium
 pandas
 wordcloud
