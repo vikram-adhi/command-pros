@@ -8,7 +8,10 @@ import time
 import configparser
 
 app = FastAPI(title="Command Retrieval System", description="Simplify the process of recalling and executing commands for individual applications/OS.", version="0.0.1")
-
+origins = [
+    "https://command-pros.azurewebsites.net/"
+]
+app.mount("/", StaticFiles(directory="static", html=True), name="angular")
 config = configparser.ConfigParser()
 config.read('config.ini')
 
@@ -32,7 +35,7 @@ async def add_process_time_header(request: Request, call_next):
     response.headers["X-Process-Time"] = str(process_time)
     return response
 
-@app.post('/command-retriever',response_class = JSONResponse)
+@app.post('/command-retriever')
 async def fetch_commands(request: CommandRetriever):
     user_input = request.input_text
     product = request.product
