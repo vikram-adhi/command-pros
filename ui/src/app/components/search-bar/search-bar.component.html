@@ -1,21 +1,17 @@
 <div class="container p-2 pt-3">
   <form class="example-container" [formGroup]="formGroup">
     <div class="row">
-      <div class="col-2">
+      <div class="col-md-2 col-12 mb-2">
         <mat-form-field appearance="fill" class="w-100">
           <mat-label>Choose a product</mat-label>
           <mat-select formControlName="product">
-            <mat-option
-              *ngFor="let product of products"
-              [value]="product.value"
-            >
+            <mat-option *ngFor="let product of products" [value]="product.value">
               {{ product.viewValue }}
             </mat-option>
           </mat-select>
         </mat-form-field>
       </div>
-      <div class="col-10 d-flex">
-        <!-- Code for search bar -->
+      <div class="col-md-10 col-10 mb-2 d-flex">
         <mat-form-field appearance="fill" class="w-100">
           <mat-label>AI Command Search</mat-label>
           <div class="d-flex align-items-center">
@@ -24,9 +20,9 @@
               type="text"
               formControlName="input_text"
               placeholder="your search here"
+              maxlength="150"
               class="mr-2"
             />
-            <!-- <mat-spinner diameter="20" *ngIf="isLoading"></mat-spinner> -->
           </div>
         </mat-form-field>
         <button
@@ -47,7 +43,6 @@
   <mat-spinner diameter="30" *ngIf="isLoading"></mat-spinner>
 </div>
 <div class="container mt-3" *ngIf="topResults.length !== 0">
-  <mat-spinner diameter="30" *ngIf="isLoading" class="align-center"></mat-spinner>
   <div>
     <h3 class="mb-3 display-1"><strong>Top Results</strong></h3>
   </div>
@@ -56,11 +51,11 @@
       <div class="card-body">
         <div class="card-text">
           <div class="row">
-            <div class="col-10">
+            <div class="col-12 mb-2">
               <h3 class="command-text">{{ item.command }}</h3>
               <p class="command-description">{{ item.description }}</p>
             </div>
-            <div class="col-2">
+            <div class="col-12">
               <div class="justify-content-end align-items-right d-flex gap-2">
                 <button
                   class="btn btn-sm btn-outline-success float-right mr-3"

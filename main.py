@@ -6,6 +6,7 @@ from fastapi import Request
 from fastapi.responses import JSONResponse
 import time
 import configparser
+from utils import check_input_limit
 
 app = FastAPI(title="Command Retrieval System", description="Simplify the process of recalling and executing commands for individual applications/OS.", version="0.0.1")
 
@@ -35,10 +36,14 @@ async def add_process_time_header(request: Request, call_next):
 @app.post('/command-retriever',response_class = JSONResponse)
 async def fetch_commands(request: CommandRetriever):
     user_input = request.input_text
-    product = request.product
-    result_json = command_retriever(user_input, product)
-    return result_json
+    if(check_input_limit(user_input)):
+        product = request.product
+        result_json = command_retriever(user_input, product)
+        return result_json
+    else:
+        return {"status": False, "errorMessage": "User Input Limit Exceeded"}
+
 
 @app.get("/")
 async def root():
-    return {"message": "Hello World"}
+    return {"message": "Welcome to 'Revolutionizing Command Execution With Natural Text Retrieval'", "more_info": "https://github.hpe.com/nithishkumar-kuduva-ravi-sankar/command-pros"}
